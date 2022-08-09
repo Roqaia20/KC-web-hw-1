@@ -1,0 +1,51 @@
+
+body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+h1{
+
+    color: rgb(210, 60, 60);
+     background-color: rgb(11, 12, 3);
+      font-weight: 200;
+      font-family: 'Roboto', sans-serif;
+}
+img{
+    width: 300px;
+    height: 300px;
+    margin-left: 880px;
+    border-radius: 50%;
+
+}
+a{
+    text-decoration: none;
+}
+.sky{
+    height: 40%;
+    background-color:skyblue ;
+}
+
+/* .grass, .sky, .road{ */
+    /* position: relative; */
+/* } */
+.grass{
+    height: 30%;
+    background-color: seagreen;
+}
+.road{
+    height: 30%;
+    background-color: dimgray;
+    box-sizing: border-box;
+    border-top: 10px solid gray;
+    border-bottom: 10px solid gray;
+    width: 100%;
+}
+.lines{
+    box-sizing: border-box;
+    border: 5px dashed #fff;
+    height: 0px;
+    width: 100%;
+    position: 45%;
+}
